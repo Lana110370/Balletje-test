@@ -9,6 +9,7 @@ function setup() {
 }
 
 function draw(){
+
   background (225);
 
   ellipse (x,y,50,50);
@@ -23,4 +24,8 @@ function draw(){
   if (y <= 0 || y >= 400){
     yv = yv * -1;
   }
+
+  rect (200, 200, 50, 50)
+  fill('grey')
+
 }
